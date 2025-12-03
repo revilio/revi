@@ -3,73 +3,122 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>thx sun</title>
-
-    <style>
-      .whole {
-        margin: 20px;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        border: 10px;
-      }
-
-      .revi {
-        color: rgb(221, 89, 42);
-        font-size: 50px;
-      }
-
-      .pres {
-        color: crimson;
-        font-size: 40px;
-      }
-
-      html {
-        background-image: url(img/bckg.jpg);
-        background-size: cover;
-      }
-
-      .pict {
-        width: 200px;
-        border-radius: 100px;
-        float: center;
-        margin: 10px;
-      }
-
-      .likettl {
-        color: blueviolet;
-        font-size: 50px;
-        display: block;
-        margin: 10px 0;
-      }
-    </style>
+    <title>revi's bio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <p hidden>if you read that feel free to threw up on my code</p>
-    <div class="whole">
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
-        ><img class="pict" src="img/ComfyUI_00037_.png"
-      /></a>
-      <p class="revi">Hi! i'm revi</p>
+    <div class="main-container">
+      <div class="top">
+        <div class="profile">
+          <img class="pict" src="img/pdp.png" alt="Profile Picture" />
+          <div class="name">Revi</div>
+        </div>
+        <div class="boxes" id="top">
+          <h1>Hayooo~✨</h1>
+          <p class="bloc-txt">My name is Revi, i'm 18 years old :3</p>
+          <p class="bloc-txt">here you can:</p>
+          <ul class="li1">
+            <li><a href="#like-main">know what i like</a></li>
+            <li><a href="#about-me">know more about my life</a></li>
+            <li><a href="#contact-me">contact me</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub-container">
+        <div class="boxes" id="like-main">
+          <h1 id="likettl">what i like</h1>
+          <div class="boxes" id="like">
+            <div class="box-section">
+              <p class="bloc-txt">music</p>
 
-      <p class="pres">i like vrc and role playing.</p>
+              <div class="boxes" id="sub">
+                <p class="bloc-txt">DSBM</p>
+                <p class="bloc-txt">break core</p>
+                <p class="bloc-txt">metal</p>
+                <p class="bloc-txt">old french rap</p>
+                <p class="bloc-txt">boum boum &#40;tek&#41;</p>
+              </div>
+            </div>
 
-      <p class="pres">
-        i also like shitty site cause it remind me my old 3DS from years ago
-      </p>
+            <div class="box-section">
+              <p class="bloc-txt">humans</p>
 
-      <p class="pres">
-        i'm actually trying to learn HTML cause why not, i don't have anything
-        better to do
-      </p>
+              <div class="boxes" id="sub">
+                <p class="bloc-txt">my lovely BF❤️</p>
+                <p class="bloc-txt">sun</p>
+                <p class="bloc-txt">gru 3.0</p>
+                <p class="bloc-txt">vulcanorFR</p>
+                <p class="bloc-txt">my mother</p>
+              </div>
+            </div>
+            <div class="box-section">
+              <p class="bloc-txt">hobbies</p>
 
-      <a class="likettl" href="what-else/do-i-like.html"
-        >what else do i like?</a
-      >
-      <a class="likettl" href="what-else/about-me.html">more about me!</a>
+              <div class="boxes" id="sub">
+                <p class="bloc-txt">doin shit on my comp</p>
+                <p class="bloc-txt">inline skating</p>
+                <p class="bloc-txt">cooking</p>
+                <p class="bloc-txt">hangging out</p>
+                <p class="bloc-txt">skip school</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxes" id="about-me">
+          <h1>more about my life</h1>
+          <p class="bloc-txt">
+            I'm revi, i'm born in 2007, in france. I should be dead some hours
+            or days after i was born but here i am.
+          </p>
+          <br />
+          <p class="bloc-txt">
+            My life is a bit tricky but i've learnt to live with it, and i try
+            to make the best of it.
+          </p>
+          <br />
+          <p class="bloc-txt">
+            I'm currently studying in further studies to became an automatician
+            or robotician, & why not both!
+          </p>
+          <br />
+          <p class="bloc-txt">
+            But i don't learn that much at school, so i try to learn things by
+            myself at home, like coding, and bunch of other stuff.
+          </p>
+          <br />
+          <p class="bloc-txt">
+            i've learned a lot by myself in my life since years ago and even if
+            that was hard sometimes, i think it also make me the person i am
+            today and i'm proud of it.
+          </p>
+          <br />
+          <br />
+          <p class="adv">
+            if i can give one advice it'll be to never stop learning and always
+            stay curious.
+          </p>
+          <br />
+          <p class="adv">
+            but also never forget to be yourself, people will make you suffer
+            sometimes for that but once you get through it, you'll be stronger,
+            prouder and happier.
+          </p>
+        </div>
+        <div class="boxes" id="contact-me">
+          <h1>contact me</h1>
+          <p class="bloc-txt">
+            feel free to contact me on Discord for whatever you want!
+          </p>
+          <a
+            href="https://discord.com/users/350983997180084224"
+            target="_blank"
+            class="discord-button"
+            >DISCORD</a
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>

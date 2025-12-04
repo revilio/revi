@@ -1,206 +1,206 @@
 .main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 100vh;
-    padding: 0px;
-    size: auto;
-    padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 0px;
+  size: auto;
+  padding-top: 5px;
 }
 
 .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .sub-container {
-    flex-wrap: wrap;
-    display:inline-flex;
-    flex-direction:row;
-    align-items:baseline;
-    justify-content: center;
-    width: 100%;
+  flex-wrap: wrap;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
 }
 
 .profile {
-    margin: 0px;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 20px;
+  margin: 0px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
 }
 
-.pict   {
-    width: 35%;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid #555;
-    margin-top: 0px;
+.pict {
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #555;
+  margin-top: 0px;
 }
 
 .name {
-    font: small-caps 60px cursive;
-    color: #ffffff;
+  font: small-caps 60px cursive;
+  color: #ffffff;
 }
 
 .boxes {
-    background-color: #0000007e;
-    border: 2px solid #ccc;
-    border-radius: 20px;
-    padding: 20px;
-    max-width: 600px;
-    width: auto;
-    height: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+  background-color: #0000007e;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 600px;
+  width: auto;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 h1 {
-    font: small-caps 40px cursive;
-    color: #ffffff;
-    margin-bottom: 10px;
-    margin-top: 0px;
+  font: small-caps 40px cursive;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .bloc-txt {
-    font: 20px cursive;
-    color: #ffffff;
-    line-height: 1.6;
-    margin-bottom: 5px;
-    margin-top: 0px;
+  font: 20px cursive;
+  color: #ffffff;
+  line-height: 1.6;
+  margin-bottom: 5px;
+  margin-top: 0px;
 }
 
 .li1 {
-    font: 18px cursive;
-    color: #ffffff;
-    margin-left: 0px;
-    line-height: 1.6;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  font: 18px cursive;
+  color: #ffffff;
+  margin-left: 0px;
+  line-height: 1.6;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 html {
-    background-image: url('img/bckg.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  background-image: url("img/bckg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 a {
-    color: #ff69b4;
-    text-decoration:none;
+  color: #ff69b4;
+  text-decoration: none;
 }
 
 .box-section {
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: none;
 }
 
 #like {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: auto;
-    border: none;
-    margin: 0px;
-    padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  border: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 #sub {
-    padding-left: 0px;
-    padding: 5px;
-    margin: 2.5px;
-    color: #ffffff;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    height: auto;
-    width: auto;
-    text-align: center;
+  padding-left: 0px;
+  padding: 5px;
+  margin: 2.5px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: auto;
+  width: auto;
+  text-align: center;
 }
 
 #likettl {
-    align-self: normal;
+  align-self: normal;
 }
 
 #like-main {
-    text-align: center;
+  text-align: center;
 }
 
 #about-me {
-    text-align: center;
+  text-align: center;
 }
 
 .adv {
-    font: 20px cursive;
-    color: #ff0000;
-    line-height: 1.6;
-    margin-bottom: 5px;
-    margin-top: 0px;
+  font: 20px cursive;
+  color: #ff0000;
+  line-height: 1.6;
+  margin-bottom: 5px;
+  margin-top: 0px;
 }
 
 #contact-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  order: 2;
 }
 
 .discord-button {
-	background-color:#007ab3;
-	border-radius:28px;
-	border:1px solid #007ab3;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+  background-color: #007ab3;
+  border-radius: 28px;
+  border: 1px solid #007ab3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
 }
 
-    .discord-button:hover {
-	background-color:#007ab3;
-    }
-
-    .discord-button:active {
-	position:relative;
-	top:1px;
-    }   
-
-    .up {
-        margin-top: 10px;
-	    background:linear-gradient(to bottom, #940000 5%, #940000 100%);
-	    background-color:#940000;
-	    border-radius:28px;
-	    border:1px solid #940000;
-	    display:inline-block;
-	    cursor:pointer;
-	    color:#ffffff;
-	    font-family:Arial;
-	    font-size:17px;
-	    padding:16px 31px;
-	    text-decoration:none;
-	    text-shadow:0px 1px 0px #940000;
+.discord-button:hover {
+  background-color: #007ab3;
 }
-    .up:hover {
-	background:linear-gradient(to bottom, #940000 5%, #940000 100%);
-	background-color:#940000;
-    }
-    .up:active {
-	position:relative;
-	top:1px;
-    }
+
+.discord-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.up {
+  margin-top: 10px;
+  background: linear-gradient(to bottom, #940000 5%, #940000 100%);
+  background-color: #940000;
+  border-radius: 28px;
+  border: 1px solid #940000;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #940000;
+}
+.up:hover {
+  background: linear-gradient(to bottom, #940000 5%, #940000 100%);
+  background-color: #940000;
+}
+.up:active {
+  position: relative;
+  top: 1px;
+}

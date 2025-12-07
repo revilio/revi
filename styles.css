@@ -82,6 +82,7 @@ h1 {
   line-height: 1.6;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-align: left;
 }
 html {
   background-image: url("img/bckg.png");

@@ -101,6 +101,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
@@ -207,4 +208,9 @@ a {
 
 #achievements {
   text-align: center;
+}
+
+#graveyard {
+  text-align: center;
+  order: 3;
 }
